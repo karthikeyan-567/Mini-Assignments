@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+     .container{
+        margin: auto;
+        padding-bottom:50px ;
+        width: 650px;
+        height: fit-content;
+        background-color: black;
+        margin-top:60px ;
+     }
+     .container__img-con{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 30%;
+        
+     }
+     .container__header{
+        color: white;
+        text-align: center;
+     }
+     .imggallery img{
+        width: 150px ;
+        height: 100px;
+    
+        flex-grow:1;
+        border: solid 2px white;
+
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container__header">
+            <h1>Image Gallery</h1>
+        </div>
+            <div class="container__img-con">
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2023/07/27/14/52/universe-8153526_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2024/07/01/10/50/flycatcher-8864922_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2024/12/15/10/40/australian-pelican-9268481_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2024/09/19/13/31/baya-weaver-9058783_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/26/11/44/squirrel-7678830_1280.jpg" alt="">
+                </div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/02/16/49/cat-8361048_1280.jpg" alt="">
+                </div>
+                <div class="imggallery"><img src="https://cdn.pixabay.com/photo/2023/11/29/21/05/animal-8420313_1280.jpg" alt=""></div>
+                <div class="imggallery">
+                    <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_1280.jpg" alt="">
+                </div>
+                
+
+            
+
+        </div>
+
+    </div>
+</body>
+</html>
